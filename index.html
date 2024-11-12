@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="chat-header">
+            <h1>OpenAI Chat Interface</h1>
+            <div class="api-key-input">
+                <input type="password" id="api-key" placeholder="Enter your OpenAI API key">
+                <div class="api-key-status"></div>
+            </div>
+        </header>
+
+        <div class="chat-container" id="chat-container"></div>
+
+        <form id="chat-form" class="chat-input-form">
+            <textarea 
+                id="message-input" 
+                placeholder="Type your message here..." 
+                rows="1"
+                required
+            ></textarea>
+            <button type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </form>
+        
+        <div class="loading" id="loading">
+            <div class="loading-dots">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
