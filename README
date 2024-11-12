@@ -17,7 +17,7 @@ A lightweight, responsive chat interface that integrates with OpenAI's GPT model
 ## Project Structure
 
 ```
-simple-chat-interface/
+chat-app-tutorial/
 ├── index.html      # Main HTML structure
 ├── styles.css      # Styling and theme definitions
 ├── chat.js         # Chat functionality
@@ -28,8 +28,8 @@ simple-chat-interface/
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd simple-chat-interface
+git clone https://github.com/joeBlockchain/chat-app-tutorial
+cd chat-app-tutorial
 ```
 
 2. Get your API Key:
